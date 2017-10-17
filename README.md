@@ -10,15 +10,15 @@ A Building Block is a a self-contained unit of functionality that is designed to
 
 - accepts a single input (e.g. an event) and results in a single outcome (e.g. a component is rendered, a web page is rendered, a Lambda function is updated, emails are sent and so on)
 
-- is inter-operable with other AWS Building Block modules.  The module is aware of other compatible building blocks and doesn't seek to re-invent the wheel but rather uses other modules, improving these as needed
+- is inter-operable with other AWS Building Block modules.  The module is aware of other compatible building blocks and doesn't seek to re-invent the wheel but rather usiteracts with other AWS Building Blocks, improving these as needed
 
-- is self-sufficient.  That is the module has no dependencies on software other than what is fully contained in the module itself (after install) and the framework / tooling the module is build on (e.g. nodejs, terraform etc).  Because 'no module is an island' modules will often rely on other services, these dependencies need to be services interacted with over http(s), not additional software the user must install through a separate process.
+- is self-sufficient.  That is the Building Block has no dependencies on software other than what is fully contained in the module itself (after install) and the framework / tooling the module is built on (e.g. nodejs, terraform etc).  Because 'no module is an island' modules will often rely on other services, these dependencies need to be services interacted with over http(s), not additional software the user must install through a separate process.  These dependencies should be clearly called out in the readme
 
 - is open-source.  
 
 - has one or more contributers who support and improve the module through its life-cycle
 
-- is documented
+- is documented, including instructions on how to install the building block on a local development machine, as well as how to install and configure the module in the AWS environment
 
 - resides in a single code repository (e.g. a single github repo)
 
