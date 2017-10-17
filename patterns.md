@@ -1,4 +1,7 @@
-# cjlennon
+# Patterns for building AWS Building Blocks
+
+The patterns below may help you as you and your team build inter-operable AWS Building Blocks.
+
 ## Pattern.  Global (per project) css styling
 
 For a given project (project in the sense of a collaberative endevour) use a single stylesheet, or set of stylesheets that control the styling for all pages and components within the project.
@@ -124,6 +127,10 @@ Of course for reasons of knowledge sharing, performance (you may not wish to hav
 No front end framework or templating engine is used in the sample application.  Or to put this another way, Cognify uses its own rendering system.  Pages are created by using nodejs code and the values needed at run time are injected when the page or component is rendered (using `string.replace()`)
 
 The html pages and components use a number of open-source components, many of which are built on top of jquery
+
+## Pattern.  Use terraform
+
+Although not native to AWS like CloudFormation, terraform offers some complelling advantages.
 
 ## Pattern.  Interacting with the database
 
