@@ -1,6 +1,6 @@
-# Patterns for building AWS Building Blocks
+# Pattern: Modular design 
 
-The patterns below may help you as you and your team build inter-operable AWS Building Blocks.
+The patterns below may help you as you and your team build inter-operable components
 
 ## Pattern.  Global (per project) css styling
 
@@ -15,10 +15,6 @@ This does mean that some modules, namely those that display content, rely on thi
 - Globalising a style sheet enables the styling to be changed and improved, without the need to change the modules themselves
 -  A global stylesheet enables component re-use.  Components such as dynamic tables, multi-select boxes etc can be rendered in a simple and consistant way
 -  In practical terms graphic design is a skillset that may well not reside within the developer / team authoring the module.  Separating layout from functionality in this way enables the styling work to be done by a team with the graphic design skills required
-
-### In the sample application
-
-The styling for Cognify is powered by the `cjlennon-cognify-global-styles` project, which itself sits on top of a slightly modified AdminLTE stylesheet, which sits on top of bootstrap.  You can find the Cognify styles project and the modified AdminLTE project in this cjlennon github project
 
 ## Pattern: responding to problems
 
